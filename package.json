@@ -1,0 +1,16 @@
+{
+  "name": "finance-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "binance:most-liquid": "node binance-most-liquid-cryptos.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {    
+    "jsdom": "^20.0.2"
+  }
+}
